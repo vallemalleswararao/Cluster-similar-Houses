@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load your dataset (replace 'data.csv' with your data file)
-data = pd.read_csv('data.csv')
+data = pd.read_csv('"C:\Users\valle\Downloads\house_rental_data.csv.txt"')
 
 # 1. Handling Missing Data
 data.dropna(inplace=True)  # Remove rows with missing values
